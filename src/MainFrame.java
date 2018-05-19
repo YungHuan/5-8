@@ -9,7 +9,7 @@ public class MainFrame extends JFrame{
     private JButton jbtn2 = new JButton("REST");
     private JButton jbtn3 = new JButton("EXIT");
     private Container cp;
-    private JPanel jpnc =new JPanel(new GridLayout(3,1,3,3));
+    private JPanel jpnc =new JPanel(new GridLayout(3,3,3,3));
     private JPanel jpnr= new JPanel(new GridLayout(3,1,3,3));
     private JButton Jbtn [][]=new JButton[3][3];
 
@@ -71,6 +71,8 @@ public class MainFrame extends JFrame{
                     for (int j=0;j<3;j++){
                         Jbtn[i][j].setText("");
                         Jbtn[i][j].setEnabled(false);
+                        Jbtn[i][j].setBackground(new Color(84, 182, 255));
+
                     }
                 }
             }

@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        MainFrame mif =new MainFrame();
-
+	// write your code here
+        MainFrame mir =new MainFrame();
     }
 }
